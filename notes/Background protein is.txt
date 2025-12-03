@@ -1,0 +1,28 @@
+Background:
+- protein is large molecules
+- composed of 20 types of smaller molecules known as amino acids.
+- these amino acids are ordered in long chain called or known as the protein amino acid seq.
+- each protein has its own unique seq. This unique seq determines its structure and function.
+
+Goal: build a model that predicts what protein does based on its amino acid seq. 
+
+Problem:
+- We don't fully understand what many individual proteins do.
+- current approach?
+	- compare a protein to other proteins whose functions are known
+	- search scientific papers for clues
+	- use ml to analyze data from mult sources
+	- the methods mentioned above are useful but struggle with complex biology because proteins have multiple roles and their functions can change depending on the situation.
+
+what we need to do?
+- train a model to predict gene ontology (GO)
+- What is GO? it is a set of proteins based on the sequence of their amino acids.
+- Go describes what the protein does, which biological processes it's involved in, and where int the cell it operates.
+- we need to predict multiple labels at once while sorting trhough messy bio data. 
+
+what if succeed?
+- help scientists narrrow down protein roles faster
+- prioritize lab exp
+- spot connections that might otherwise get unclocked
+
+REMEMBER: nowing what a protein does is a small step for a model, but a giant leap for medicine. 
