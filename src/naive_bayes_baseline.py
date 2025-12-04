@@ -11,7 +11,7 @@ NUM_PREDICTIONS = 1500
 
 
 # LOAD AND ANALYSE TRAINING LABELS
-def get_terms_frequencies(path):
+def get_terms_frequencies(file_path):
     """Load the ground truth and counts the frequencies of each GO term."""
     print("1. Loading training terms...")
 
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
     # File paths
     TRAIN_TERM_PATH = os.path.join(DATA_DIR, "train_terms.tsv")
-    TEST_FASTA_PATH = os.path.join("./data/Test", "testsuperst.fasta")
+    TEST_FASTA_PATH = os.path.join("./data/Test", "testsuperset.fasta")
 
     # 1. Get the naive scores
     naive_scores = get_terms_frequencies(TRAIN_TERM_PATH)
